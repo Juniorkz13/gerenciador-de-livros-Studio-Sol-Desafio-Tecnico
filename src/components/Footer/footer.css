@@ -1,0 +1,25 @@
+/* src/footer.css */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(29, 28, 28, 0.1);
+    border-top-right-radius: 50px;
+    color: rgb(160, 118, 242);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+  }
+  
+  .footer a {
+    color: rgb(160, 118, 242);
+    text-decoration: none;
+  }
+  
+  .footer svg {
+    font-size: 24px;
+  }
+  

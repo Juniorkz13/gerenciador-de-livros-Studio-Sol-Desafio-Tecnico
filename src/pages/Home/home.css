@@ -1,0 +1,53 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lista-livros {
+  margin-top: 20px;
+}
+
+.livro {
+  padding: 20px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+  flex: 1;
+}
+
+.livro h2 {
+  margin-bottom: 10px;
+  font-size: 22px; 
+  color: rgb(160, 118, 242); 
+  text-decoration: none;
+}
+
+.livro a {
+  text-decoration: none;
+}
+
+.livro h2:visited {
+  color: rgb(160, 118, 242);
+}
+
+.livro img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slick-arrow {
+  color: rgb(160, 118, 242);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slick-arrow:hover {
+  color: rgb(126, 93, 191);
+}
